@@ -60,6 +60,8 @@ docker-compose -f focker-compose.dev.yaml up -d
 docker-compose -f docker-compose.dev.yaml exec <service name> bash
 ```
 
+- Connect to the app with a browser by going to http://localhost:8000
+
 - Launch vscode
 ```cmd
 code .
