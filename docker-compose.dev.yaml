@@ -5,6 +5,6 @@ services:
       - 8000:8000
     working_dir: /code
     volumes:
-      - ./: /code
+      - ./:/code
     tty: true
     command: bash -c "npm i && npm run dev"
