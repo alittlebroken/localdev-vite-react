@@ -1,0 +1,10 @@
+services:
+  client:
+    image: node:latest
+    ports: 
+      - 8000:8000
+    working_dir: /code
+    volumes:
+      - ./: /code
+    tty: true
+    command: bash -c "npm i && npm run dev"
